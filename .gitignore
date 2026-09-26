@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Logs / output that shouldn't be committed
+*.log
+output/
+reports/*.html
+reports/*.json
+!reports/.gitkeep
+
+# Secrets
+*.pem
+*.key
+secrets.*
